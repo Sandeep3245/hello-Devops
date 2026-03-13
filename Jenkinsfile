@@ -1,6 +1,8 @@
 pipeline {
     agent any
-    
+     parameters {
+        string(name: 'PERSON_NAME', defaultValue: 'World', description: 'Who should I say hello to?')
+    }
     stages {
         stage('Run Shell Script') {
             steps {

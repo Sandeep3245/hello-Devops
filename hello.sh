@@ -3,4 +3,4 @@
 date
 #prints the hostname
 whoami 
-echo "hello $PERSON_NAME"
+echo "Hello $PERSON_NAME"
