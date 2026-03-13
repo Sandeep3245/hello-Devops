@@ -1,12 +1,11 @@
-pipeline{
+pipeline {
     agent any
-    stages{
-        stage('run shell script'){
-            steps{
-                sh'''
-                chmod +x hello.sh && ./hello.sh
+    
+    stages {
+        stage('Run Shell Script') {
+            steps {
+                sh 'chmod +x hello.sh && ./hello.sh'
             }
         }
     }
-
 }
