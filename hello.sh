@@ -3,3 +3,4 @@
 date
 #prints the hostname
 whoami 
+echo "hello Devops
